@@ -4,6 +4,9 @@ import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls
 import org.jetbrains.annotations.PropertyKey
 
+// reproducing the issue
+import com.intellij.collaboration.auth.credentials.Credentials
+
 @NonNls
 private const val BUNDLE = "messages.MyBundle"
 
